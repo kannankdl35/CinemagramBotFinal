@@ -49,18 +49,18 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', callback_data="shortlink_info"),
+                InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', url=CHNL_LNK),
                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ʟɪɴᴋꜱ', url=f'https://t.me/{SUPPORT_CHAT}')
             ],[
                 InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ', url=OWNER_LNK)
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', callback_data="shortlink_info"),
+                InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', url=CHNL_LNK),
                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ʟɪɴᴋꜱ', url=f'https://t.me/{SUPPORT_CHAT}')
             ],[
                 InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ', url=OWNER_LNK)
