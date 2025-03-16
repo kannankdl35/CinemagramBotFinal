@@ -51,7 +51,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', url=CHNL_LNK),
+                InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', callback_data="shortlink_info"),
                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ʟɪɴᴋꜱ', url=SUPPORT_CHAT)
             ],[
                 InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ', url=OWNER_LNK)
@@ -60,7 +60,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', url=CHNL_LNK),
+                InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', callback_data="shortlink_info"),
                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ʟɪɴᴋꜱ', url=SUPPORT_CHAT)
             ],[
                 InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ', url=OWNER_LNK)
