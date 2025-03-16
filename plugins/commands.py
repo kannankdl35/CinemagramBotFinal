@@ -49,7 +49,7 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=GRP_LNK)
+                InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', url=CHNL_LNK),
                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ʟɪɴᴋꜱ', url=SUPPORT_CHAT)
@@ -58,7 +58,7 @@ async def start(client, message):
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=GRP_LNK)
+                InlineKeyboardButton('✗  ᴊᴏɪɴ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ  ✗', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ɴᴇᴡ ʀᴇʟᴇᴀꜱᴇꜱ', url=CHNL_LNK),
                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ ʟɪɴᴋꜱ', url=SUPPORT_CHAT)
