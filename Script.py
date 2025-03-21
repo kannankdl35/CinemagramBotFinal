@@ -244,9 +244,15 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ</b> : <b>{file_name}</b> 
+<b>⚙️ sɪᴢᴇ</b> : <i>{file_size}</i>
 
-<b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
+━━━━━━━ × ━━━━━━━
+
+𝗚𝗿𝗼𝘂𝗽 ➠ @CinemagramGrp
+𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ➠ @CmgChnl
+𝗕𝗼𝘁 ➠ @Cmg_MovieBot
+𝗟𝗶𝗻𝗸𝘀 ➠ @Cinemagram_Links""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
