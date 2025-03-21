@@ -250,10 +250,10 @@ Nᴀᴍᴇ - {}"""
 
 ━━━━━━━ × ━━━━━━━
 
-<blockquote>𝗚𝗿𝗼𝘂𝗽 ➠ @CinemagramGrp
+𝗚𝗿𝗼𝘂𝗽 ➠ @CinemagramGrp
 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 ➠ @CmgChnl
 𝗕𝗼𝘁 ➠ @Cmg_MovieBot
-𝗟𝗶𝗻𝗸𝘀 ➠ @Cinemagram_Links</blockquote>""" 
+𝗟𝗶𝗻𝗸𝘀 ➠ @Cinemagram_Links""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
